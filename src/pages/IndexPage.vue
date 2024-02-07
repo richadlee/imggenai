@@ -17,21 +17,18 @@
       <div class="col text-white q-mb-md">
         <q-btn icon="send" size="18px" color="primary" label="Try It Now" :href="tryItNowLink"/>
       </div>
-      <div class="col text-white">
-        <div class="q-pa-md" >
-          <img src="~assets/0_0.webp" width="380px"/>
+      <div class="q-pa-md row q-col-gutter-md">
+        <div class="col-12 col-md-4" :key="n">
+          <img src="~assets/0_0.webp" width="100%"/>
+        </div>
+        <div class="col-12 col-md-4" :key="n">
+          <img src="~assets/1_1.webp" width="100%"/>
+        </div>
+        <div class="col-12 col-md-4" :key="n">
+          <img src="~assets/2_2.webp" width="100%"/>
         </div>
       </div>
-      <div class="col text-white">
-        <div class="q-pa-md" >
-          <img src="~assets/1_1.webp" width="380px"/>
-        </div>
-      </div>
-      <div class="col text-white">
-        <div class="q-pa-md" >
-          <img src="~assets/2_2.webp" width="380px"/>
-        </div>
-      </div>
+
       <div class="col text-white q-mb-md">
         <q-btn icon="send" size="18px" color="primary" label="Try It Now" :href="tryItNowLink"/>
       </div>
@@ -135,6 +132,8 @@ export default defineComponent({
       const refValue = queryParams.get('ref'); // 获取ref参数的值
       if (refValue) {
         refParam.value = refValue; // 如果有ref参数，则更新refParam的值
+      }else{
+        refParam.value = 'REFNET'
       }
     });
     // 动态生成"Try It Now"按钮的链接
