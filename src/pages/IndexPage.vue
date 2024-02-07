@@ -15,7 +15,7 @@
         </div>
       </div>
       <div class="col text-white q-mb-md">
-        <q-btn icon="send" size="18px" color="primary" label="Try It Now" href="https://t.me/BraUndress_Entry_Bot?start=aOeQgDye"/>
+        <q-btn icon="send" size="18px" color="primary" label="Try It Now" href="https://t.me/BraUndress_Entry_Bot?start=REFNET"/>
       </div>
       <div class="col text-white">
         <div class="q-pa-md" >
@@ -33,7 +33,7 @@
         </div>
       </div>
       <div class="col text-white q-mb-md">
-        <q-btn icon="send" size="18px" color="primary" label="Try It Now" href="https://t.me/BraUndress_Entry_Bot?start=aOeQgDye"/>
+        <q-btn icon="send" size="18px" color="primary" label="Try It Now" href="https://t.me/BraUndress_Entry_Bot?start=REFNET"/>
       </div>
       <div class="col text-white">
         <div class="q-pa-md" width="380px" >
