@@ -15,7 +15,7 @@
         </div>
       </div>
       <div class="col text-white q-mb-md">
-        <q-btn icon="send" size="18px" color="primary" label="Try It Now" href="https://t.me/BraUndress_Entry_Bot?start=REFNET"/>
+        <q-btn icon="send" size="18px" color="primary" label="Try It Now" :href="tryItNowLink"/>
       </div>
       <div class="col text-white">
         <div class="q-pa-md" >
@@ -33,7 +33,7 @@
         </div>
       </div>
       <div class="col text-white q-mb-md">
-        <q-btn icon="send" size="18px" color="primary" label="Try It Now" href="https://t.me/BraUndress_Entry_Bot?start=REFNET"/>
+        <q-btn icon="send" size="18px" color="primary" label="Try It Now" :href="tryItNowLink"/>
       </div>
       <div class="col text-white">
         <div class="q-pa-md" width="380px" >
@@ -123,14 +123,29 @@
 </template>
 
 <script>
-import { defineComponent, ref  } from 'vue'
+import { defineComponent, ref, onMounted, watch } from 'vue'
 
 export default defineComponent({
   name: 'IndexPage',
   setup () {
+    const refParam = ref('');
+    // 组件挂载后获取URL参数
+    onMounted(() => {
+      const queryParams = new URLSearchParams(window.location.search);
+      const refValue = queryParams.get('ref'); // 获取ref参数的值
+      if (refValue) {
+        refParam.value = refValue; // 如果有ref参数，则更新refParam的值
+      }
+    });
+    // 动态生成"Try It Now"按钮的链接
+    const tryItNowLink = ref('https://t.me/BraUndress_Entry_Bot?start=');
+    watch(refParam, (newValue) => {
+      tryItNowLink.value = `https://t.me/BraUndress_Entry_Bot?start=${newValue}`;
+    }, { immediate: true });
     return {
       lorem: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-      slide: ref(1)
+      slide: ref(1),
+      tryItNowLink 
     }
   }
 })
