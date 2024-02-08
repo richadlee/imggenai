@@ -19,13 +19,13 @@
       </div>
       <div class="q-pa-md row q-col-gutter-md">
         <div class="col-12 col-md-4" :key="n">
-          <img src="~assets/0_0.webp" width="100%"/>
+          <img src="https://i.postimg.cc/4Nj2JVWj/0-0.png" width="100%"/>
         </div>
         <div class="col-12 col-md-4" :key="n">
-          <img src="~assets/1_1.webp" width="100%"/>
+          <img src="https://i.postimg.cc/Kv1sSJDn/1-1.png" width="100%"/>
         </div>
         <div class="col-12 col-md-4" :key="n">
-          <img src="~assets/2_2.webp" width="100%"/>
+          <img src="https://i.postimg.cc/FFWnB23r/2-2.png" width="100%"/>
         </div>
       </div>
 
