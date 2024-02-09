@@ -1,9 +1,9 @@
 {
-  "name": "quasar-braundress",
+  "name": "quasar-ImgGenAI",
   "version": "0.0.1",
-  "description": "BraUndress",
-  "productName": "BraUndress AI On Nudify - Undress any girl you want",
-  "author": "braundress@gmail.com",
+  "description": "ImgGenAI",
+  "productName": "ImgGenAI AI On Clothes Changing",
+  "author": "ImgGenAI@gmail.com",
   "private": true,
   "scripts": {
     "lint": "eslint --ext .js,.vue ./",
