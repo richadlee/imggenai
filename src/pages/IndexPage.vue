@@ -6,7 +6,7 @@
       </div>
       <div class="col text-white q-mb-md">
         <div class="q-px-lg text-h4 text-weight-bolder " width="380px">
-          Undress ANYONE
+          Start your MAGICAL DRESSING journey
         </div>
       </div>
       <div class="col text-white q-mb-md">
@@ -19,13 +19,24 @@
       </div>
       <div class="q-pa-md row q-col-gutter-md">
         <div class="col-12 col-md-4" :key="n">
-          <img src="https://i.postimg.cc/4Nj2JVWj/0-0.png" width="100%"/>
+          <img src="https://i.postimg.cc/Bnz9jYsW/0.png" width="100%"/>
         </div>
         <div class="col-12 col-md-4" :key="n">
-          <img src="https://i.postimg.cc/Kv1sSJDn/1-1.png" width="100%"/>
+          <img src="https://i.postimg.cc/9Q0HF36t/1.png" width="100%"/>
         </div>
         <div class="col-12 col-md-4" :key="n">
-          <img src="https://i.postimg.cc/FFWnB23r/2-2.png" width="100%"/>
+          <img src="https://i.postimg.cc/50ch3X6n/2.png" width="100%"/>
+        </div>
+      </div>
+      <div class="q-pa-md row q-col-gutter-md">
+        <div class="col-12 col-md-4" :key="n">
+          <img src="https://i.postimg.cc/85hqnTvD/3.png" width="100%"/>
+        </div>
+        <div class="col-12 col-md-4" :key="n">
+          <img src="https://i.postimg.cc/3NYzszjG/4.png" width="100%"/>
+        </div>
+        <div class="col-12 col-md-4" :key="n">
+          <img src="https://i.postimg.cc/jjJVPHdD/5.png" width="100%"/>
         </div>
       </div>
 
@@ -42,7 +53,7 @@
 
               <q-card-section>
                 <div class="text-h6">It’s completely safe.</div>
-                <div class="text-h8">Undress AI is highly secure and discrete. Your actions are not published anywhere.</div>
+                <div class="text-h8">ImgGenAI is highly secure and discrete. Your actions are not published anywhere.</div>
               </q-card-section>
             </q-card-section>
         </q-card>
@@ -58,7 +69,7 @@
 
               <q-card-section>
                 <div class="text-h6">Multiple dressing effects</div>
-                <div class="text-h8">Also provide various dressing effects such as bundling, semen, bikini, bunnysuit, facial, rolling eyes and tongue out, etc</div>
+                <div class="text-h8">Also provide various dressing effects such as schooluniform, dress, formal, swimsuit etc</div>
               </q-card-section>
             </q-card-section>
         </q-card>
@@ -73,8 +84,8 @@
               </q-card-section>
 
               <q-card-section>
-                <div class="text-h6">The latest outpainting effects</div>
-                <div class="text-h8">The latest outpainting effects such as blowjob, titfxck, handjob, and milking are also very popular</div>
+                <div class="text-h6">Constantly updated AI models</div>
+                <div class="text-h8">Continuously updated AI models keep you at the forefront of technological advancements, helping you create high-quality artistic works.</div>
               </q-card-section>
             </q-card-section>
         </q-card>
@@ -85,12 +96,12 @@
           <q-card class="my-card bg-grey-9" flat bordered width="380px">
             <q-card-section horizontal>
               <q-card-section>
-                <div class="text-h4 q-py-md">⚙</div>
+                <div class="text-h4 q-py-md">⚡</div>
               </q-card-section>
 
               <q-card-section>
-                <div class="text-h6">Preference Settings</div>
-                <div class="text-h8">You can customize breasts size and private parts</div>
+                <div class="text-h6">Simple and fast</div>
+                <div class="text-h8">With just a single click, you can bring your imagination to life, experiencing simplicity and speed.</div>
               </q-card-section>
             </q-card-section>
         </q-card>
@@ -113,7 +124,7 @@
         </div>
       </div>
       <div class="col text-white" font="Arial">
-        braundress@gmail.com
+        ©Copyright 2024 ImgGenAI imggenai@gmail.com
       </div>
     </div>
   </q-page>
@@ -137,9 +148,9 @@ export default defineComponent({
       }
     });
     // 动态生成"Try It Now"按钮的链接
-    const tryItNowLink = ref('https://t.me/BraUndress_Entry_Bot?start=');
+    const tryItNowLink = ref('https://t.me/ImgGenAI_Bot?start=');
     watch(refParam, (newValue) => {
-      tryItNowLink.value = `https://t.me/BraUndress_Entry_Bot?start=${newValue}`;
+      tryItNowLink.value = `https://t.me/ImgGenAI_Bot?start=${newValue}`;
     }, { immediate: true });
     return {
       lorem: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
