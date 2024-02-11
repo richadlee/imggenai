@@ -124,7 +124,7 @@
         </div>
       </div>
       <div class="col text-white" font="Arial">
-        ©Copyright 2024 ImgGenAI imggenai@gmail.com
+        ©Copyright 2024 ImgGenAI imggenaix@gmail.com
       </div>
     </div>
   </q-page>
