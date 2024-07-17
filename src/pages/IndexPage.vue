@@ -28,6 +28,7 @@
           <img src="https://i.postimg.cc/50ch3X6n/2.png" width="100%"/>
         </div>
       </div>
+      
 
       <div class="col text-white q-mb-md">
         <q-btn icon="send" size="18px" color="primary" label="Try It Now" :href="tryItNowLink"/>
