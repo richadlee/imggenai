@@ -22,21 +22,10 @@
           <img src="https://i.postimg.cc/Bnz9jYsW/0.png" width="100%"/>
         </div>
         <div class="col-12 col-md-4" :key="n">
-          <img src="https://i.postimg.cc/9Q0HF36t/1.png" width="100%"/>
+          <img src="https://i.postimg.cc/jjJVPHdD/5.png" width="100%"/>
         </div>
         <div class="col-12 col-md-4" :key="n">
           <img src="https://i.postimg.cc/50ch3X6n/2.png" width="100%"/>
-        </div>
-      </div>
-      <div class="q-pa-md row q-col-gutter-md">
-        <div class="col-12 col-md-4" :key="n">
-          <img src="https://i.postimg.cc/85hqnTvD/3.png" width="100%"/>
-        </div>
-        <div class="col-12 col-md-4" :key="n">
-          <img src="https://i.postimg.cc/3NYzszjG/4.png" width="100%"/>
-        </div>
-        <div class="col-12 col-md-4" :key="n">
-          <img src="https://i.postimg.cc/jjJVPHdD/5.png" width="100%"/>
         </div>
       </div>
 
